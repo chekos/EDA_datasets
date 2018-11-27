@@ -5,9 +5,9 @@
 Este repositorio contiene _datasets_, de ambos tipos limpios y sin procesar, útiles en para practicar el análisis exploratorio de datos.
 
 
-| Nombre | Estado | Fuente | Descripción |
-|:----:|:------:|:------:|:-----------|
-| `ca_immigrants.csv` | procesado | American Community Survey, <br> Census <br> (IPUMS) | Este dataset contiene 4 variables: <br> `year` el año de la encuesta  , <br> país de nacimiento (`bpld`), <br> nivel educativo (`agg educd`), <br> y número de personas (`perwt`). |
+| Nombre | Estado | Fuente | Descripción | Notas |
+|:------:|:------:|:------:|:------------|:------|
+| `ca_immigrants.csv` | procesado | American Community Survey, <br> Census <br> (IPUMS) | Este dataset contiene 4 variables: <br> `year` el año de la encuesta  , <br> país de nacimiento (`bpld`), <br> nivel educativo (`agg educd`), <br> y número de personas (`perwt`). | Estos números son de _llegadas recientes_, immigrantes que llegaron a California 5 años o menos al tomar la encuesta. |
 
 
 
@@ -28,9 +28,9 @@ Para el _Estado_ de cada _dataset_ existen tres opciones:
 This repository will contain datasets, both tidy and untidy, useful in Exploratory Data Analysis.
 
 
-| Name | Status | Source | Description |
-|:----:|:------:|:------:|:-----------|
-| `ca_immigrants.csv` | processed | American Community Survey, <br> Census <br> (IPUMS) | This dataset contains 4 variables: <br> `year` of survey  , <br> birthplace (`bpld`), <br> educational attainment (`agg educd`), <br> and number of people (`perwt`). |
+| Name | Status | Source | Description | Notes |
+|:----:|:------:|:------:|:------------|:------|
+| `ca_immigrants.csv` | processed | American Community Survey, <br> Census <br> (IPUMS) | This dataset contains 4 variables: <br> `year` of survey  , <br> birthplace (`bpld`), <br> educational attainment (`agg educd`), <br> and number of people (`perwt`). | These numbers are for _recent arrivals_, immigrants who arrived to CA within 5 years prior to the survey. |
 
 
 
