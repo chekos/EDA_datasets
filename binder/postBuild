@@ -6,4 +6,4 @@ jupyter lab build
 jupyter notebook --generate-config -y 
 
 git clone https://github.com/chekos/nb_templates.git home/jovyan/.jupyter/nb_templates
-echo "c.JupyterLabTemplates.template_dirs = ['/home/jovyan/.jupyter/nb_templates/nb_templates']" >> home/jovyan/.jupyter/jupyter_notebook_config.py
+echo "c.JupyterLabTemplates.template_dirs = ['/home/jovyan/.jupyter/nb_templates/nb_templates']" >> /home/jovyan/.jupyter/jupyter_notebook_config.py
