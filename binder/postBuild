@@ -1,6 +1,8 @@
 jupyter labextension install jupyterlab_templates
 jupyter serverextension enable --py jupyterlab_templates --sys-prefix
 
+jupyter lab build
+
 jupyter notebook --generate-config -y 
 
 git clone https://github.com/chekos/nb_templates.git home/$NB_USER/.jupyter/nb_templates
