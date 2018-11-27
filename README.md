@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/chekos/EDA_datasets/master?urlpath=%2Flab)
+***
 # Exploratory Data Analysis datasets
 
 This repository will contain datasets, both tidy and untidy, useful in Exploratory Data Analysis.
