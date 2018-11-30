@@ -7,7 +7,11 @@ Este repositorio contiene _datasets_, de ambos tipos limpios y sin procesar, út
 
 | Nombre | Estado | Fuente | Descripción | Notas |
 |:------:|:------:|:------:|:------------|:------|
-| `ca_immigrants.csv` | procesado | American Community Survey, <br> Census <br> (IPUMS) | Este dataset contiene 4 variables: <br> `year` el año de la encuesta  , <br> país de nacimiento (`bpld`), <br> nivel educativo (`agg educd`), <br> y número de personas (`perwt`). | Estos números son de _llegadas recientes_, immigrantes que llegaron a California 5 años o menos al tomar la encuesta. |
+| `ca_immigrants.csv` | procesado | American Community Survey, <br> Census <br> [(IPUMS)](usa.ipums.org) | Este dataset contiene 4 variables: <br> `year` el año de la encuesta  , <br> país de nacimiento (`bpld`), <br> nivel educativo (`agg educd`), <br> y número de personas (`perwt`). | Estos números son de _llegadas recientes_, immigrantes que llegaron a California 5 años o menos al tomar la encuesta. |
+| `CO2_emissions.csv` | desordenado | [El Banco Mundial](https://datos.bancomundial.org/) | Información sobre la cantidad de emisiones de CO2 en toneladas métricas per capita de más de 250 países | No todas los países tienen información para todos los años |
+| `norteamerica_CO2.csv` | procesado | [El Banco Mundial](https://datos.bancomundial.org/) | Información sobre la cantidad de emisiones de CO2 en toneladas méetricas per capita para Canada, Estados Unidos y México | Derivado de `CO2_emissions.csv` |
+| `pib.csv` | ordenado | [INEGI](https://inegi.org.mx/) | El producto interno bruto y la población de México desde 1960 (por décadas). <br> tiene el `periodo`, `poblacion` y `pib` como columnas. | |
+| `poblacion.csv` | ordenado | [INEGI](https://inegi.org.mx/) | Un pequeño __dataset__ de 2 columnas `Periodo` y `Número de personas en México desde 1910 (por periodos de Censo - cada 10 años) | |
 
 
 
@@ -23,24 +27,3 @@ Para el _Estado_ de cada _dataset_ existen tres opciones:
 
 
 ***
-# Exploratory Data Analysis datasets
-
-This repository will contain datasets, both tidy and untidy, useful in Exploratory Data Analysis.
-
-
-| Name | Status | Source | Description | Notes |
-|:----:|:------:|:------:|:------------|:------|
-| `ca_immigrants.csv` | processed | American Community Survey, <br> Census <br> (IPUMS) | This dataset contains 4 variables: <br> `year` of survey  , <br> birthplace (`bpld`), <br> educational attainment (`agg educd`), <br> and number of people (`perwt`). | These numbers are for _recent arrivals_, immigrants who arrived to CA within 5 years prior to the survey. |
-
-
-
-
-If the dataset contains less than 5 variables please list them on the description. Otherwise be as detailed as possible while still being succint. 
-
-Always include a **source**
-
-For status there are three options: 
-* **tidy** - the dataset is clean and in tidy-form)
-* **un-tidy** - the dataset requires processing before further exploration
-* **processed** - the dataset has had some processing and can be explored as is but is not in perfect tidy format (it could use some more processing -  these are great for beginners to practice data-cleaning on top of data-exploration techniques!) 
-
